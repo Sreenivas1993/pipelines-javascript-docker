@@ -9,6 +9,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+
 - stage: Build
   displayName: Build and push stage
   jobs:  
